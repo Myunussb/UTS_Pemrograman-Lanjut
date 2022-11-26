@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LaundryApp.Notifikasi"
+             BackgroundColor="#46345B">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="NavBar.png"
+                   Margin="0,420,0,0"
+                   HeightRequest="500"></Image>
+
+            <Button x:Name="Btnhome" Text="House" WidthRequest="100" HeightRequest="50"
+                        Margin="-310,-285,0,0"
+                    HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                    BorderColor="Transparent"
+                    BorderWidth="1.5"
+                        BackgroundColor="Transparent"
+                    Clicked="Button_Home"
+                       ></Button>
+            <Button x:Name="Btnpesanan" Text="Pesanan" WidthRequest="100" HeightRequest="50"
+                        Margin="-105,-56,0,0"
+                    HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                    BorderColor="Transparent"
+                    BorderWidth="1.5"
+                        BackgroundColor="Transparent"
+                    Clicked="Button_Pesan"
+                       ></Button>
+            
+            <Button Text="Notif" WidthRequest="100" HeightRequest="50"
+                        Margin="100,-56,0,0"
+                    HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                    BorderColor="Transparent"
+                    BorderWidth="1.5"
+                        BackgroundColor="Transparent"
+                    
+                       ></Button>
+            <Button x:Name="BtnAkun" Text="Akun" WidthRequest="100" HeightRequest="50"
+                        Margin="310,-56,0,0"
+                    HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                    BorderColor="Transparent"
+                    BorderWidth="1.5"
+                        BackgroundColor="Transparent"
+                    Clicked="Button_Akun"
+                     
+                       ></Button>
+            <Image Source="NotifAtas.png" 
+                   Margin="0,-700,0,0"
+                   HeightRequest="100"
+                  ></Image>
+            <Image Source="PembayaranBerhasil.png" 
+                   Margin="0,0,0,0"
+                   HeightRequest="65"
+                  ></Image>
+            <Image Source="MenungguPembayaran.png" 
+                   Margin="0,0,0,0"
+                   HeightRequest="65"
+                  ></Image>
+            <Image Source="PesananSelesai.png" 
+                   Margin="0,0,0,0"
+                   HeightRequest="65"
+                  ></Image>
+            <Image Source="PesananDikirim.png" 
+                   Margin="0,0,0,0"
+                   HeightRequest="65"
+                  ></Image>
+            <Image Source="PesananDiproses.png" 
+                   Margin="0,0,0,0"
+                   HeightRequest="65"
+                  ></Image>
+            <Image Source="PesananMasukAntrian.png" 
+                   Margin="0,0,0,0"
+                   HeightRequest="65"
+                  ></Image>
+            <Image Source="PembayaranBerhasil.png" 
+                   Margin="0,0,0,0"
+                   HeightRequest="65"
+                  ></Image>
+
+            <Label Text="Pesanan No. 00000651"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   TextColor="Black"
+                   Margin="30,-495,0,0"/>
+            <Label Text="Pesanan No. 00000651"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   TextColor="Black"
+                   Margin="30,35,0,0"/>
+            <Label Text="Pesanan No. 00000650"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   TextColor="Black"
+                   Margin="30,35,0,0"/>
+            <Label Text="Pesanan No. 00000650"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   TextColor="Black"
+                   Margin="30,35,0,0"/>
+            <Label Text="Pesanan No. 00000650"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   TextColor="Black"
+                   Margin="30,35,0,0"/>
+            <Label Text="Pesanan No. 00000650"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   TextColor="Black"
+                   Margin="30,35,0,0"/>
+            <Label Text="Pesanan No. 00000650"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   TextColor="Black"
+                   Margin="30,35,0,0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

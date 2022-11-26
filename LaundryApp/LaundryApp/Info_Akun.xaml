@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LaundryApp.Info_Akun"
+             BackgroundColor="#46345B">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="NavBar.png"
+                   Margin="0,420,0,0"
+                   HeightRequest="500"></Image>
+
+            <Button x:Name="Btnhome" Text="House" WidthRequest="100" HeightRequest="50"
+                        Margin="-310,-285,0,0"
+                    HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                    BorderColor="Transparent"
+                    BorderWidth="1.5"
+                        BackgroundColor="Transparent"
+                    Clicked="Button_Home"
+                       ></Button>
+            <Button x:Name="Btnpesanan" Text="Pesanan" WidthRequest="100" HeightRequest="50"
+                        Margin="-105,-56,0,0"
+                    HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                    BorderColor="Transparent"
+                    BorderWidth="1.5"
+                        BackgroundColor="Transparent"
+                    Clicked="Button_Pesan"
+                       ></Button>
+            <Button x:Name="Btnnotif" Text="Notif" WidthRequest="100" HeightRequest="50"
+                        Margin="100,-56,0,0"
+                    HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                    BorderColor="Transparent"
+                    BorderWidth="1.5"
+                        BackgroundColor="Transparent"
+                    Clicked="Button_Notif"
+                       ></Button>
+            <Button x:Name="BtnAkun" Text="Akun" WidthRequest="100" HeightRequest="50"
+                        Margin="310,-56,0,0"
+                    HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                    BorderColor="Transparent"
+                    BorderWidth="1.5"
+                        BackgroundColor="Transparent"
+                    
+                     
+                       ></Button>
+            <Image Source="GambarProfile.png" 
+                   Margin="0,-675,0,0"
+                   HeightRequest="250"
+                  ></Image>
+            <Image Source="PilihInfoAkun.png" 
+                   Margin="0,10,0,0"
+                   HeightRequest="325"
+                  ></Image>
+            <Button Text="Info Akun" WidthRequest="260" HeightRequest="70"
+                        Margin="2,-325,0,0"
+                        CornerRadius="15"
+                        HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                        BackgroundColor="Transparent"
+                    BorderColor="Gray"
+                    BorderWidth="1"
+                        ></Button>
+            <Button Text="Membership" WidthRequest="260" HeightRequest="70"
+                        Margin="2,1,0,0"
+                        CornerRadius="15"
+                        HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                        BackgroundColor="Transparent"
+                    BorderColor="Gray"
+                    BorderWidth="1"
+                        ></Button>
+            <Button Text="Kosong" WidthRequest="260" HeightRequest="70"
+                        Margin="2,5,0,0"
+                        CornerRadius="15"
+                        HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                        BackgroundColor="Transparent"
+                    BorderColor="Gray"
+                    BorderWidth="1"
+                        ></Button>
+            <Button Text="LogOut" WidthRequest="260" HeightRequest="70"
+                        Margin="2,1,0,0"
+                        CornerRadius="15"
+                        HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                        BackgroundColor="Transparent"
+                    BorderColor="Gray"
+                    BorderWidth="1"
+                        ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

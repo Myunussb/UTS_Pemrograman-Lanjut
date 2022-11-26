@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LaundryApp.Tampilan_home"
+             BackgroundColor="#46345B">
+    <ContentPage.Content>
+        <StackLayout>
+
+
+            <Image Source="pilihlatar.png"
+                   Margin="0,300,0,0"
+                   HeightRequest="500" ></Image>
+
+            <Image Source="kiloan.png"
+                   Margin="-250,-420,0,0"
+                   HeightRequest="100" ></Image>
+
+            <Image Source="satuan.png"
+                   Margin="5,-105,0,0"
+                   HeightRequest="100"  ></Image>
+
+            <Image Source="setrika.png"
+                   Margin="255,-105,0,0"
+                   HeightRequest="100"  ></Image>
+
+            <Image Source="karpet.png"
+                   Margin="-250,10,0,0"
+                   HeightRequest="100"  ></Image>
+
+            <Image Source="lainnya.png"
+                   Margin="5,-105,0,0"
+                   HeightRequest="100"  ></Image>
+
+            <Image Source="pengiriman.png"
+                   Margin="255,-105,0,0"
+                   HeightRequest="100"  ></Image>
+
+            <Label Text="Layanan Kami :"
+                   Margin="20,-280,0,0"
+                   TextColor="Black"
+                   FontAttributes="Bold"
+                   FontSize="Large" ></Label>
+
+            <Image Source="bg_saldo" 
+                   Margin="0,-225,0,0"
+                   HeightRequest="115"></Image>
+
+            <Image Source="get_point" 
+                   Margin="250,-103,0,0"
+                   WidthRequest="20"
+                   HeightRequest="80"></Image>
+
+            <Image Source="top_up" 
+                   Margin="70,-87,0,0"
+                   WidthRequest="20"
+                   HeightRequest="80"></Image>
+
+            <Label Text="Saldo :  Rp.100.000"
+                   Margin="35,-75,0,0"
+                   TextColor="Black"
+                   FontSize="Medium" ></Label>
+
+            <Label Text="WePoint :           100 Point"
+                   Margin="35,10,0,0"
+                   TextColor="#46345B"
+                   FontSize="Small" ></Label>
+
+            <Label Text="Selamat Datang"
+                   Margin="30,-200,0,0"
+                   TextColor="White"
+                   FontSize="Large" ></Label>
+
+            <Label Text="Ricardo Milos"
+                   Margin="30,10,0,0"
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   FontSize="Medium" ></Label>
+            <StackLayout>
+                <Button Text="1" WidthRequest="90" HeightRequest="90"
+                        Margin="250,45,0,0"
+                        HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                        BackgroundColor="Transparent"
+                       ></Button>
+
+                <Button Text="2" WidthRequest="90" HeightRequest="90"
+                        Margin="70,-95,0,0"
+                        HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                        BackgroundColor="Transparent"
+                        ></Button>
+
+                <Button Text="3" WidthRequest="90" HeightRequest="90"
+                        Margin="-250,125,0,0"
+                        HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                        BackgroundColor="Transparent"
+                        ></Button>
+
+                <Button Text="4" WidthRequest="90" HeightRequest="90"
+                        Margin="05,-95,0,0"
+                        HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                        BackgroundColor="Transparent"
+                        ></Button>
+
+                <Button Text="5" WidthRequest="90" HeightRequest="90"
+                        Margin="255,-90,0,0"
+                        HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                        BackgroundColor="Transparent"
+                        ></Button>
+
+                <Button Text="6" WidthRequest="90" HeightRequest="90"
+                        Margin="-250,20,0,0"
+                        HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                        BackgroundColor="Transparent"
+                        ></Button>
+
+                <Button Text="7" WidthRequest="90" HeightRequest="90"
+                        Margin="5,-95,0,0"
+                        HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                        BackgroundColor="Transparent"
+                        ></Button>
+
+                <Button Text="1" WidthRequest="90" HeightRequest="90"
+                        Margin="255,-95,0,0"
+                        HorizontalOptions="CenterAndExpand"
+                        BackgroundColor="Transparent"
+                        TextColor="Transparent"
+                        ></Button>
+
+            </StackLayout>
+            <StackLayout>
+                <Image Source="NavBar.png"
+                   Margin="0,-180,0,0"
+                   HeightRequest="500"></Image>
+
+
+
+            </StackLayout>
+
+            <Button   Text="House" WidthRequest="100" HeightRequest="50"
+                        Margin="-305,-285,0,0"
+                    HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                    BorderColor="Transparent"
+                    BorderWidth="1.5"
+                        BackgroundColor="Transparent"
+                     
+                       ></Button>
+            <Button x:Name="Btnpesanan" Text="Pesanan" WidthRequest="100" HeightRequest="50"
+                        Margin="-100,-56,0,0"
+                    HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                    BorderColor="Transparent"
+                    BorderWidth="1.5"
+                        BackgroundColor="Transparent"
+                    Clicked="Button_Pesan"
+                       ></Button>
+            <Button x:Name="Btnnotif" Text="Notif" WidthRequest="100" HeightRequest="50"
+                        Margin="105,-56,0,0"
+                    HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                    BorderColor="Transparent"
+                    BorderWidth="1.5"
+                        BackgroundColor="Transparent"
+                    Clicked="Button_Notif"
+                       ></Button>
+            <Button x:Name="BtnAkun" Text="Akun" WidthRequest="100" HeightRequest="50"
+                        Margin="310,-56,0,0"
+                    HorizontalOptions="CenterAndExpand"
+                        TextColor="Transparent"
+                    BorderColor="Transparent"
+                    BorderWidth="1.5"
+                        BackgroundColor="Transparent"
+                     Clicked="Button_Akun"
+                       ></Button>
+            
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
